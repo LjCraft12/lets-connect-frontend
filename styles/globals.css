@@ -1,16 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;700&family=Roboto+Slab:wght@400;600&display=swap');
+
+:root {
+    --main-background: #023047;
+    --secondary-background: #219EBC;
+    --main-btn-background: #FD8500;
+    --main-btn-background-hover: rgba(253, 133, 0, 0.84);
+    --secondary-btn-background: #FFB703;
+    --terchiary-color: #8ECAE6;
+}
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    line-height: 1.4;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: 'Antonio', sans-serif;
+    margin: 20px;
+}
+
+p, a {
+    font-family: 'Roboto Slab', serif;
+    margin: 10px;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.btn {
+    color: orange;
+    font: inherit;
+    background: #0070f3;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 12px;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+.btn-secondary {
+    font: inherit;
+    font-size: 13px;
+    background: #000;
+    color: #fff !important;
+    border-radius: 5px;
+    border-bottom: 0;
+    margin: 0 12px;
+}
+
+.btn-secondary:hover {
+    opacity: .8;
+}
+
+.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-icon svg {
+    margin-right: 5px;
+}
+
+section {
+    margin: 5em 0;
 }
