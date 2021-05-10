@@ -1,0 +1,30 @@
+.auth {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 2px 8px 15px 2px rgba(25, 25, 25, .48);
+}
+
+.auth label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.auth input[type='text'],
+.auth input[type='email'],
+.auth input[type='password'] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+}
+
+.auth input[type='submit'] {
+    margin-top: 15px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.auth div {
+    margin-bottom: 15px;
+}
